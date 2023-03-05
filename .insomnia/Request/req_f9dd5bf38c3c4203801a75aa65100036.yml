@@ -1,0 +1,63 @@
+_id: req_f9dd5bf38c3c4203801a75aa65100036
+type: Request
+parentId: fld_436948e547d54da895089ef6e7bfedb7
+modified: 1677980064642
+created: 1677979999213
+url: http://localhost:8000/import/full_payload
+name: Valid Example
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "applicantInfoModule": {
+        "birthday":"1879-03-14",
+        "gender":"M",
+        "utcOffset":"1"
+      },
+      "feedbackModule": {
+        "note": "very fun\r\nthanks",
+        "starRating": 4.5,
+        "timings": [18459]
+      },
+      "locationModule": {
+        "deviceGps": {
+          "lat": "-36.8666700",
+          "lon": "174.7666700"
+        },
+        "city": "Auckland",
+        "country": "NZ"
+      },
+    	  "sessionPrefs": {
+        "language": ["en-NZ", "en-AU", "en"],
+        "marketingOptIn": {
+          "email": null,
+          "sms": {
+            "nl": true,
+            "res": false
+          }
+        },
+        "orientLandscape": true
+      },
+      "sessionUid": "f3ef1ad1-b148-4343-8f99-54bbda721ccb",
+      "tokensModule": {
+        "honestyQuot": "0.85",
+        "timePrefQuot": "0.32",
+        "timings": [983, 1244, 601]
+      },
+      "userId": 42
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1677979999213
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
