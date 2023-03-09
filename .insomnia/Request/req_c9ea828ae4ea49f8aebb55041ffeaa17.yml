@@ -1,7 +1,7 @@
 _id: req_c9ea828ae4ea49f8aebb55041ffeaa17
 type: Request
 parentId: fld_b1a3ae8b2cbd434db7201381c86e8a2c
-modified: 1677979956589
+modified: 1678333431925
 created: 1677979955381
 url: http://localhost:8000/import/applicant_info
 name: Invalid Example
@@ -11,10 +11,13 @@ body:
   mimeType: application/json
   text: |
     {
-      "birthday": "2019-03-14",
-      "gender": "Q",
-      "utcOffset": null,
-      "attachment": "virus.exe"
+    	"applicantInfoModule": {
+    		"birthday": "2019-03-14",
+    		"gender": ">9000",
+    		"utcOffset": null,
+    		"attachment": "virus.exe"
+    	},
+    	"someOtherModule": 42
     }
 parameters: []
 headers:

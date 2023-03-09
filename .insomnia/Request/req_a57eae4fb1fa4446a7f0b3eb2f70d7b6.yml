@@ -1,7 +1,7 @@
 _id: req_a57eae4fb1fa4446a7f0b3eb2f70d7b6
 type: Request
 parentId: fld_b1a3ae8b2cbd434db7201381c86e8a2c
-modified: 1677979950101
+modified: 1678333349980
 created: 1677979916900
 url: http://localhost:8000/import/applicant_info
 name: Valid Example
@@ -11,9 +11,11 @@ body:
   mimeType: application/json
   text: |
     {
-      "birthday": "1879-03-14",
-      "gender": "M",
-      "utcOffset": "1"
+    	"applicantInfoModule": {
+    		"birthday": "1879-03-14",
+    		"gender": "M",
+    		"utcOffset": "1"
+    	}
     }
 parameters: []
 headers:
